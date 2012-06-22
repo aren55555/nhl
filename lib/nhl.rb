@@ -1,5 +1,5 @@
 class Nhl
-  def test
+  def self.test
     puts "hello world"
   end
 end
