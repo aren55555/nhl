@@ -8,4 +8,6 @@ Gem::Specification.new do |s|
   s.email       = ''
   s.files       = ["lib/nhl.rb"]
   s.homepage    = 'http://rubygems.org/gems/nhl'
+  
+  s.add_dependency('nokogiri', '~> 1.5.4') 
 end
